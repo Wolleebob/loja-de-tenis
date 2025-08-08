@@ -1,0 +1,81 @@
+/* === Estilo geral da página === */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  margin: 0; /* Remove margens padrão */
+  background-color: #fdfdfd; /* Cor de fundo clara */
+  color: #333; /* Cor do texto principal */
+}
+
+/* === Cabeçalho (header) === */
+header {
+  background-color: #1a1a1a; /* Fundo escuro */
+  color: white; /* Texto claro */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Menu de navegação no cabeçalho */
+header nav ul {
+  list-style: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o preenchimento */
+  margin: 10px 0 0; /* Margem superior */
+  display: flex; /* Alinha os itens em linha */
+  justify-content: center; /* Centraliza os itens na horizontal */
+  gap: 20px; /* Espaço entre os links */
+}
+
+header nav ul li a {
+  color: white; /* Cor dos links */
+  text-decoration: none; /* Remove sublinhado */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Efeito ao passar o mouse sobre os links */
+header nav ul li a:hover {
+  text-decoration: underline; /* Adiciona sublinhado */
+}
+
+/* === Seção de destaque (banner) === */
+.banner {
+  background-color: #f1e64dec; /* Cor de fundo amarelo claro */
+  padding: 30px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+}
+
+.banner h2 {
+  margin-bottom: 20px; /* Espaço abaixo do título */
+  color: #000000; /* Cor preta para o título */
+}
+
+/* === Seção de produto === */
+.produto {
+  background-color: white; /* Fundo branco */
+  margin: 40px auto; /* Margem superior/inferior e centralização horizontal */
+  max-width: 400px; /* Largura máxima do card */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Sombra leve */
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilização da imagem do produto */
+.produto img {
+  width: 100%; /* Faz a imagem ocupar toda a largura do card */
+  border-radius: 8px; /* Arredonda as bordas da imagem */
+}
+
+/* Estilização do preço do produto */
+.produto .preco {
+  font-size: 1.2em; /* Aumenta o tamanho da fonte */
+  color: #0077cc; /* Azul vibrante */
+  margin-top: 10px; /* Espaço acima do preço */
+}
+
+/* === Rodapé === */
+footer {
+  background-color: #1a1a1a; /* Fundo escuro */
+  color: white; /* Texto claro */
+  text-align: center; /* Centraliza o texto */
+  padding: 15px; /* Espaçamento interno */
+  margin-top: 40px; /* Espaço antes do rodapé */
+}
